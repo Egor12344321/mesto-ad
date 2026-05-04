@@ -64,6 +64,7 @@ export const removeCard = (cardId) => {
   }).then(getResponseData);
 };
 
+
 export const changeLikeCardStatus = (cardID, isLiked) => {
   return fetch(`${config.baseUrl}/cards/likes/${cardID}`, {
     method: isLiked ?  "DELETE" : "PUT",
