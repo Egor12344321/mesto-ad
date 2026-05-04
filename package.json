@@ -1,6 +1,7 @@
 {
   "name": "mesto-ad",
   "version": "1.0.0",
+  "type": "module",
   "description": "Стартовый набор для выполнения проектной работы Место",
   "main": "index.js",
   "scripts": {
