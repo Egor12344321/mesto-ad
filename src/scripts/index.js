@@ -193,7 +193,7 @@ const handleLikeClick = (cardData, likeButton, cardLikeCounter) => {
   const isLiked = likeButton.classList.contains("card__like-button_is-active");
   changeLikeCardStatus(cardData._id, isLiked)
     .then((updatedCardData) => {
-      likeButton.classList.toggle("card__like-button_is-active");
+      likeCard(likeButton);
       cardLikeCounter.textContent = updatedCardData.likes.length;
     })
     .catch((err) => {

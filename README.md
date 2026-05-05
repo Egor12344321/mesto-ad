@@ -7,7 +7,7 @@ Live-server является расширением VSCode
 
 # Проект Mesto
 
-Опубликованная версия: https://github.com/Egor12344321/mesto-production
+Опубликованная версия: https://egor12344321.github.io/mesto-production/
 
 ## Установка и запуск
 
